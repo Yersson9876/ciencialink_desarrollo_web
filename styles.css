@@ -4,10 +4,12 @@ body {
     padding: 0;
     background: #f4f6fa;
     color: #222;
+    background-image: url("content/img/wallpaper1.jpg");
 }
 header {
     background: #0057b8;
     color: white;
+    background-image: url("https://i.pinimg.com/1200x/cc/0d/5c/cc0d5c3a25a5333ef3ff77e66d85cf02.jpg") ;
 }
 nav {
     display: flex;

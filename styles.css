@@ -1,0 +1,9 @@
+header {
+    background: #0057b8;
+    color: white;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

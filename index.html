@@ -32,18 +32,38 @@
             </div>
         </nav>
     </header>
+    <!-- Sección de bienvenida -->
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary"
+        style="background-image: url('https://thefoodtech.com/wp-content/uploads/2023/10/PANADERIA-PRINCIPAL-1.jpg'); background-size: cover; background-position: center;">
+        <div class="col-md-6 p-lg-5 mx-auto my-5">
+            <h1 class="display-3 text-white fw-bold">Panes a tu gusto</h1>
+            <h3 class="fw-normal text-muted mb-3">Disfruta de nuestros panes frescos y deliciosos</h3>
+            <div class="d-flex gap-3 justify-content-center lead fw-normal"> <a class="icon-link" href="#">
+                    Leer más
+                    <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                    </svg> </a> <a class="icon-link" href="#">
+                    Comprar ahora
+                    <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                    </svg> </a> </div>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
     <main class="container my-5">
-        <!-- Sección de bienvenida -->
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary" style="background-image: url('https://thefoodtech.com/wp-content/uploads/2023/10/PANADERIA-PRINCIPAL-1.jpg'); background-size: cover; background-position: center;">
-            <div class="col-md-6 p-lg-5 mx-auto my-5">
-                <h1 class="display-3 text-white fw-bold">Panes a tu gusto</h1>
-                <h3 class="fw-normal text-muted mb-3">Disfruta de nuestros panes frescos y deliciosos</h3>
+        <!-- Ejemplo dentro del contenedor -->
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-success"
+            style="background-image: url('https://play-lh.googleusercontent.com/xcnyyboVkS5qfKpkXn9TTwLaJMgyZQ4ezyo0Vo0X1yjJL7VmG_pGwRWWXW933Xuwrw=w526-h296-rw'); background-size: cover;">
+            <div class="col-md-6 p-lg-5 bg-warning mx-auto my-5">
+                <h1 class="display-3 fw-bold">Designed for engineers</h1>
+                <h3 class="fw-normal text-muted mb-3">Build anything you want with Aperture</h3>
                 <div class="d-flex gap-3 justify-content-center lead fw-normal"> <a class="icon-link" href="#">
-                        Leer más
+                        Learn more
                         <svg class="bi" aria-hidden="true">
                             <use xlink:href="#chevron-right"></use>
                         </svg> </a> <a class="icon-link" href="#">
-                        Comprar ahora
+                        Buy
                         <svg class="bi" aria-hidden="true">
                             <use xlink:href="#chevron-right"></use>
                         </svg> </a> </div>
@@ -61,23 +81,76 @@
             </section>
             <div class="col-2"></div>
         </div>
-            <section id="productos" class="col mb-5">
-                <h2 class="text-primary">Productos</h2>
-                <ul class="list-group">
-                    <li class="list-group-item">Pan dulce</li>
-                    <li class="list-group-item">Pan salado</li>
-                    <li class="list-group-item">Pasteles</li>
-                    <li class="list-group-item">Galletas</li>
-                </ul>
-            </section>
-            <section id="servicios" class="col mb-5">
-                <h2 class="text-primary">Servicios</h2>
-                <ul class="list-group">
-                    <li class="list-group-item">Pedidos especiales</li>
-                    <li class="list-group-item">Entrega a domicilio</li>
-                    <li class="list-group-item">Eventos y catering</li>
-                </ul>
-            </section>
+
+        <section id="productos" class="col mb-5">
+            <h2 class="text-primary">Productos</h2>
+            <div class="row">
+                <div class="card-group">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVsa5x5hFm7vkKLBRdbf0roWcG4giFz344rA&s" class="card-img-top" alt="sub-pan salado">
+                        <div class="card-body">
+                            <h5 class="card-title">Pan Salado</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                            <a href="https://wa.me/59172096970?text=Hola!%20Quiero%20información%20sobre%20su%20pan" class="btn btn-warning">Informacion</a>
+                            <a href="https://wa.me/59172096970?text=Hola!%20Quiero%20comprar%20pan" class="btn btn-danger">Comprar</a>
+                        </div>
+                    </div>
+                
+                
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9V-kB1oAVwH86Jxv02Kym69cAmBGn_Dg_Ng&s" class="card-img-top" alt="sub-pan dulce">
+                        <div class="card-body">
+                            <h5 class="card-title">Pan Dulce</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9V-kB1oAVwH86Jxv02Kym69cAmBGn_Dg_Ng&s" class="card-img-top" alt="sub-pan dulce">
+                        <div class="card-body">
+                            <h5 class="card-title">Pan Dulce</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9V-kB1oAVwH86Jxv02Kym69cAmBGn_Dg_Ng&s" class="card-img-top" alt="sub-pan dulce">
+                        <div class="card-body">
+                            <h5 class="card-title">Pan Dulce</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9V-kB1oAVwH86Jxv02Kym69cAmBGn_Dg_Ng&s" class="card-img-top" alt="sub-pan dulce">
+                        <div class="card-body">
+                            <h5 class="card-title">Pan Dulce</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">Pan dulce</li>
+                <li class="list-group-item">Pan salado</li>
+                <li class="list-group-item">Pasteles</li>
+                <li class="list-group-item">Galletas</li>
+            </ul>
+        </section>
+        <section id="servicios" class="col mb-5">
+            <h2 class="text-primary">Servicios</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Pedidos especiales</li>
+                <li class="list-group-item">Entrega a domicilio</li>
+                <li class="list-group-item">Eventos y catering</li>
+            </ul>
+        </section>
         <div class="container">
             <div class="row">
                 <section id="ubicacion" class="col mb-5">

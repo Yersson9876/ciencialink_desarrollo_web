@@ -1,4 +1,17 @@
-window.onload = function() {
+let darkmode = false;
+
+document.querySelector('a[href="#darkmode"]').addEventListener('click', function(){
+    if (darkmode){
+        document.body.style.backgroundColor = "#ffffff";
+        document.body.style.color = "black";
+    } else {
+        document.body.style.backgroundColor = "#2d4a5e";
+        document.body.style.color = "white";
+    }
+    darkmode = !darkmode;
+});
+
+/* window.onload = function() {
             alert("Bienvenido a la Panadería Delicias. Disfruta de nuestros productos frescos y deliciosos.");
             alert("Hoy hay promo especial: ¡Compra 2 panes y llévate el tercero gratis!");
         };
@@ -26,4 +39,4 @@ document.querySelectorAll('.btn-danger').forEach(function(btn){
             window.location.href = btn.getAttribute('href');
         }, 2000);
     });
-});
+});*/
